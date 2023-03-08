@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "victoyhub": {
+      "hosting": {
+        "VictoyHub": [
+          "victoyhub"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "victoyhub"
+  }
+}

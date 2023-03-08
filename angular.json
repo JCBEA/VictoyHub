@@ -94,8 +94,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "VictoyHub:build:production",
+            "firebaseProject": "victoyhub",
+            "firebaseHostingSite": "victoyhub"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "310cd10b-b36a-4e24-8410-06b53b4e8f95"
   }
 }
